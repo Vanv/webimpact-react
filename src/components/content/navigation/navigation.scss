@@ -1,0 +1,38 @@
+.menu-wrapper {
+    background-color:#fff;
+    padding: 10px;
+    border-bottom: 3px solid #E66432; 
+}
+.navbar:not(.is-transparent), .navbar:not(.is-transparent) .navbar-menu {
+    background-color:#fff;
+}
+.navbar-brand {
+    @media (max-width: 616px) {
+        text-align: center;
+    }
+}
+.is-horizontal-center {
+    justify-content: center;
+  }
+.navbar-item {
+    
+    @media (max-width: 616px) {
+        text-align: center;
+        width: 100%;
+    }
+}
+  .navbar-item .logo {
+    text-align: center;
+    width: 100%;
+}
+.navbar-item img {
+    min-height: 200px;
+    
+    @media (max-width: 616px) {
+        text-align: center;
+        margin:0 auto !important;
+    }
+}
+.navbar:not(.is-transparent) .navbar-item, .navbar:not(.is-transparent) .navbar-link {
+    color: #000;
+}
